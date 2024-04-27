@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Web Shop</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Digital Depot - our One-Stop Shop for Digital Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="about_us.html">About Us & Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="form">
+        <h1 class="mainHead">Enter Your Information Please</h1>
+        <label for="lname">Your First Name:</label>
+        <input type="text" class="fname he1" name="fname"><br><br>
+         <label for="lname">Your Last Name:</label>
+        <input type="text" class="fname he2" name="lname"><br><br>
+        <label for="lname">Credit Card Number:</label>
+        <input type="text" class="fname he3" name="lname"><br><br>
+        <label for="lname">Expiration Date:</label> 
+        <input type="text" class="lname he4" name="lname">
+        <label for="lname">3 Digit Code:</label> 
+        <input type="password" class="lname he5" name="lname"><br><br>
+
+        <input type="checkbox" id="keepValues"> <label for="lname">Keep Values</label> <br><br>
+        <button id="reset-cart" >Checkout!</button>
+    </div>
+
+       <section id="product-containe"></section>
+   
+    
+    
+       <div class="form">
+       <h1> Your Shopping Cart</h1>
+       <ul id="cart-items"></ul>
+       </div>
+
+
+       <script src="cart.js"></script>
+    
+    </main>
+
+
+
+    <footer>
+        <p>&copy; 2024 Digital Depot. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
